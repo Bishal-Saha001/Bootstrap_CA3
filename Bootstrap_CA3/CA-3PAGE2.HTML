@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover()
+        });
+    </script>
+    <style>
+        body {
+            position: relative;
+        }
+
+        ul.nav-pills {
+            top: 20px;
+            position: fixed;
+        }
+
+        div.col-sm-9 div {
+            height: 250px;
+            font-size: 28px;
+        }
+
+        #section1 {
+            color: rgb(5, 5, 5);
+            background-color: #bbd3e7;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 15px;
+            padding-left: 20px;
+            padding-top: 5px;
+            height: 500px;
+        }
+
+        #section2 {
+            color: rgb(5, 5, 5);
+            background-color: #cab9e7;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 15px;
+            padding-left: 20px;
+            padding-top: 5px;
+            height: 550px;
+        }
+
+        #section3 {
+            color: rgb(5, 5, 5);
+            background-color: #ebc895;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 15px;
+            padding-left: 20px;
+            padding-top: 5px;
+            height: 720px;
+        }
+
+
+
+        @media screen and (max-width: 810px) {
+
+            #section1,
+            #section2,
+            #section3 {
+                margin-left: 150px;
+            }
+        }
+    </style>
+
+</head>
+
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+    <div class="row">
+        <div class="text-center">
+            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/emiliaclarke-square-1552083436.png"
+                height="150px" img class="img-circle img-fluid" alt="Responsive image">
+            <a>
+                <p>
+                    <class="nav-item"><a class="nav-link" data-trigger="focus" data-toggle="popover"
+                            data-placement="bottom" title="EMILIA CLARKE" data-content="FOURTH BATCH - 2021"
+                            href="#">DETAILS</a>
+                </p>
+
+                <div class="container float-lg-right">
+                    <div class="progress" style="height:20px; width:1140px">
+                        <div class="progress-bar progress-bar-success active progress-bar-striped" role="progressbar"
+                            style="width:35%">
+                            <b>WEEK-1 [completed]</b>
+                        </div>
+                        <div class="progress-bar progress-bar-success active progress-bar-striped" role="progressbar"
+                            style="width:35%">
+                            <b>WEEK-2 [completed]</b>
+                        </div>
+                        <div class="progress-bar progress-bar-warning" role="progressbar" style="width:30%">
+                            <b>WEEK-3</b>
+                        </div>
+                    </div>
+                </div>
+
+            </a>
+        </div>
+        <div class="container">
+            <div class="row">
+                <nav class="col-sm-3" id="myScrollspy">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="active"><a href="#section1">WEEK 1</a></li>
+                        <li><a href="#section2">WEEK 2</a></li>
+                        <li><a href="#section3">WEEK 3</a></li>
+
+                    </ul>
+                </nav>
+                <div class="col-sm-9">
+                    <div id="section1">
+                        <h3>WEEK 1</h3>
+                        <p>
+                            This is an introduction to the world of dance through a ballet-inspired approach. Much of
+                            this class will focus on engaging students in listening, following directions, respecting
+                            the dance studio and faculty members and nurturing a love of dance as a proper form of
+                            recreation that involves rules, but which is also fun. Fun, music and games are used to
+                            casually introduce ballet elements to these very young students. As we are a professionally
+                            driven dance studio, those students wishing to participate in strictly “fun dance” should
+                            consider our Creative Movement A/B class. While all dance is “fun” this is a focused
+                            endeavor and should be treated seriously. During the first class a parent may wish to walk
+                            the child into the room to meet the teacher and to detach.
+                            Warm Up (on Floor)
+                        </p>
+                        <ol>
+                            <li>Isolations: move different parts of the body.</li>
+                            <li>Foot articulation: pointe and flex, later pointe ball flex ball.</li>
+                            <li>Rotation: Parallel and turned out.</li>
+                            <li>Abdominal strength exercises (i.e. rolling up to seated, reaching long rolling into a
+                                ball, etc).</li>
+                            <li>Stretch on floor (i.e. Butterfly, Straddle, Mermaid, etc.).</li>
+
+                            <li>Arm swings: front and back or side and side or circles.</li>
+                            <li>5 positions of the feet and arms.</li>
+                        </ol>
+                    </div><br>
+
+
+                    <div id="section2">
+                        <h3>WEEK 2</h3>
+                        <p>We usually keep the blinds closed in early level ballet classes for the following reasons: a)
+                            students continuously peer out to see if a chaperone is watching them which distracts from
+                            the class activities, b) students who see a parent want to leave class causing further
+                            distraction, c) students whose families are not watching them begin wondering why their
+                            parent isn’t watching if other parents are watching. While we attempt to make all of our
+                            classroom procedures public and out-in-the-open please follow our advice on protocol for
+                            watching/leaving students during class so that they can learn as much as possible in the
+                            short time provided. All Ballet B classes with registrations over 8 students will require a
+                            Teacher’s Assistant. All Ballet classes with registrations over 16 students will require 1
+                            faculty member and two TA’s for the safety of your child.</p>
+                        <ol>
+                            <li>Movement Concepts (shape, level, size, quality or energy, speed, space).</li>
+                            <li> Across the Floor.</li>
+                            <li> Ballet runs in relevé.</li>
+                            <li> Ballet walks: Stepping on a turned out flat foot, while the toes pointed when off the
+                                floor (walk, walk, walk, pointe).</li>
+                            <li> Stork/flamingo walks (skip position).</li>
+                            <li> Marches.</li>
+                            <li> Skips.</li>
+                            <li> Gallops and chasse, front and side.</li>
+                            <li>Run and Leap.</li>
+
+                        </ol>
+                    </div><br>
+
+
+                    <div id="section3">
+                        <h3>WEEK 3</h3>
+                        <p>Continue to use fun and creative exercises while also introducing the basic vocabulary in
+                            this transition class. You may continue to include fun and playful music into class. Two
+                            hands on the barre. Keep it simple! Progress to one hand by second half of year for some
+                            exercises. Work in 45 degrees 1st position. Do several slow repetitions. Do not combine
+                            steps. Emphasize proper posture and placement. Explain French terms. Begin all exercises at
+                            Barre with 4 count arm preparation. Finish all exercises with balance (when appropriate).
+                            Reverence at end of class. Emphasize classroom etiquette, holding the barre properly, making
+                            neat classroom lines in the center, no talking, etc.</p>
+                        <ol>
+                            <li> Positions Detailed discussion of positions.</li>
+                            <li> Plies Demi-plies facing barre.</li>
+                            <li> Tendus in 1st, 3rd when ready, Side only, then front, then back.</li>
+                            <li> Introduce cou depied. Later envelope, then temps lie.</li>
+                            <li> Tendu Degages in 1st, Side, then front, back when ready.</li>
+                            <li> Ronds de Jambes par terre Stop in each position, add preparation. Front and side only,
+                                full by end of year.</li>
+                            <li> Fondus not yet, can do tendu in plie as fondu exercise.</li>
+                            <li> Ronds de Jambes en l’air Not yet.</li>
+                            <li> Frappes Alternate sur la cou-de- pied front and back to pointe tendu side, accent even.
+                            </li>
+                            <li> Use flex foot preparation, very slowly to degage height.</li>
+                            <li> Developpes Retire Passe (foot in front of knee), Open to tendu front and side, back
+                                when ready.</li>
+                            <li></li>Petit Battement Practice sur la cou de pied</li>
+                            <li></li>Grand Battement As floor exercise front and back only, 2 hands on the barre,
+                            through the
+                            pointe tendu, arabesque facing the barre and devant facing away from the barre</li>
+                            <li> Stretches Splits on the floor</li>
+                        </ol>
+                    </div>
+
+                </div>
+            </div>
+        </div><br><br>
+
+    </div>
+</body>
+
+</html>
+<footer class="bg-light text-center text-lg-start">
+    <a href="#">ABOUT US</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="#">FOUNDERS</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="#">TEACHERS</a>
+
+    
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-dark" href="https:rufbuk.com">Rufbuk.com</a>
+    </div>
+    
+  </footer>
